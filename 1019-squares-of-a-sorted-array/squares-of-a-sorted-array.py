@@ -4,7 +4,6 @@ class Solution:
         right=len(nums)-1
         position=len(nums)-1
         res=[0]*len(nums)
-
         while left<=right:
             left_square=nums[left]**2
             right_square=nums[right]**2
