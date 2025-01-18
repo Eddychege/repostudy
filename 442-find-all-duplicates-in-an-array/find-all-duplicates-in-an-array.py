@@ -7,7 +7,6 @@ class Solution:
                 duplicates.append(abs(num))
             else:
                 nums[abs(num)-1]*=-1
-                
         return duplicates
         
         
