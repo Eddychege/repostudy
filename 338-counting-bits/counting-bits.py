@@ -6,6 +6,5 @@ class Solution:
                 res[i]=res[i>>1]
             else:
                 res[i]=res[i-1]+1
-    
         return res
         
